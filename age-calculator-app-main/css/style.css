@@ -1,0 +1,146 @@
+body {
+  background-color: hsl(0, 1%, 44%);
+}
+
+.allelements {
+  margin-top: 10%;
+  margin-left: 20%;
+  background-color: white;
+
+  border-radius: 0 0 30% 0;
+  width: 50%;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 40%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.inputLabel {
+  width: 60%;
+  height: 60%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+.customButton {
+  border-radius: 50%;
+  background-color: hsl(259, 100%, 65%);
+  border: none;
+}
+.lineSeprator {
+  width: 80%;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.fontadjust {
+  color: hsl(259, 100%, 65%);
+}
+.fontSize {
+  font-size: 32px;
+  font-family: "poppins";
+  font-weight: 800;
+  margin-left: 5%;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: hsl(0, 1%, 44%);
+  }
+
+  .allelements {
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width: 80%;
+    margin: 10% auto;
+    padding: 20px;
+  }
+
+  .labels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputLabel {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .customButton {
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .lineSeprator {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+    height: 2px;
+    background-color: hsl(259, 100%, 65%);
+    margin: 20px 0;
+  }
+
+  .fontadjust {
+    color: hsl(259, 100%, 65%);
+    text-align: center;
+  }
+
+  .fontSize {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+    .allelements {
+      width: 60%;
+    }
+  
+    .labels {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .inputLabel {
+      width: auto;
+      margin: 0 10px;
+    }
+  
+    .container {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .lineSeprator {
+      margin: 20px 0;
+    }
+  
+    .fontSize {
+      font-size: 32px;
+    }
+  }
